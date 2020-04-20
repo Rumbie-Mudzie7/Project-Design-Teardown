@@ -1,3 +1,19 @@
 *, *::before, *::after {
    box-sizing: border-box;
 }
+
+.site-header{
+   display: flex;
+   flex-flow: row wrap;
+   background-color: #D33A2C;
+   filter: grayscale(100%);
+}
+
+.header-logo img{
+   width: 200px;
+}
+
+.header-links:not(.header-logo) img{
+   width: 35px;
+   filter: grayscale(100%);
+}
