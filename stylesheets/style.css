@@ -215,6 +215,31 @@
    text-align: center;
    padding: 50px;
 }
-.arrow-white{
+
+.arrow-white {
    color: white;
+}
+
+.latest-posts {
+   position: relative;
+   background-color: #F6F3F2;
+   filter: grayscale(100%);
+   
+}
+
+.latest-posts article:hover {
+   background-color: white;
+   box-shadow: 2px 2px 100px;
+}
+
+.latest-posts article {
+   float: left;
+   position: relative;
+   height: 400px;
+   width: 33.3333%;
+   padding: 20px;
+}
+
+.arrow-red {
+   color: red;
 }
