@@ -115,33 +115,106 @@
 }
 
 .article-section1 {
+   position: relative;
    background-color: #BC3428;
    filter: grayscale(100%);
    width: 50%;
-   height: 500px;
+   min-height: 500px;
    float: left;
+   padding: 246px 60px 60px;
 }
 
 .article-section2 {
    background-color:#C7372A ;
    filter: grayscale(100%);
    width: 50%;
-   height: 500px;
+   min-height: 500px;
    float: left;
+   padding: 246px 60px 60px;
 }
 
 .article-section3 {
    background-color: #B13125;
    filter: grayscale(100%);
    width: 50%;
-   height: 500px;
+   min-height: 500px;
    float: left;
+   padding: 60px;
 }
 
 .article-section4 {
    background-color: #BC3428;
    filter: grayscale(100%);
    width: 50%;
-   height: 500px;
+   min-height: 500px;
    float: left;
+   padding: 60px;
+}
+
+.article-text{
+   font-size: 2.5rem;
+   font-family: 'Concert One', cursive;
+   text-align: left;
+   line-height: 1.4;
+   margin-bottom: 35px;
+}
+
+.article-text span{
+   font-size: 1rem;
+}
+
+.article-grp{
+   margin-bottom: 11px;
+}
+
+.author-pic, .author-name{
+   display: inline-block;
+   vertical-align: middle;
+   margin-right: 20px;
+}
+
+.author-name{
+   font-size: 1.5rem;
+   font-family: 'Concert One', cursive;
+}
+
+.author-name span{
+   font-family: 'EB Garamond', serif;
+}
+
+.author-pic img{
+   width: 70px;
+   object-fit: cover;
+   border-radius: 8px;
+   border: 4px solid white;
+   transform: rotate(344deg)
+}
+
+.hash-link{
+   display: block;
+   color: #fff;
+   font-family: 'Concert One', cursive;
+   margin-bottom: 200px;
+}
+
+.hash-link .hash-icon{
+   color: #000;
+}
+
+.hash-link sup{
+   vertical-align: super;
+   font-size: .8rem; 
+}
+
+.arrow{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   height: 120px;
+   width: 120px;
+   text-align: center;
+   padding: 50px;
+}
+.arrow-white{
+   color: white;
 }
