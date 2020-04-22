@@ -59,6 +59,7 @@
 
 .latest-articles{
    position: relative;
+   z-index: 200;
 }
 
 .articles-heading {
@@ -261,6 +262,47 @@
    color: red;
 }
 
+.red-banner{
+   float: left;
+   background-color: #D33A2C;
+   filter: grayscale(100%);
+   width: 33.333%;
+   height: 762px;
+   padding: 60px;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.red-banner img{
+   display: block;
+   width: 200px;
+   margin: 0 auto 50px;
+}
+
+.red-banner h1{
+   color: #fff;
+   font-size: 2rem;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.2;
+   margin-bottom: 20px;
+}
+
+.red-banner p{
+   font-size: 1.2rem;
+   line-height: 1.4;
+   margin-bottom: 1rem;
+}
+
+.red-banner button{
+   font-size: 1rem;
+   font-weight: bold;
+   padding: 10px 20px;
+   border-radius: 10px;
+   border: none;
+   margin-bottom: 20px;
+
+}
+
 .arrow{
    position: absolute;
    bottom: 0px;
@@ -269,4 +311,10 @@
    width: 120px;
    text-align: center;
    padding: 50px;
+}
+
+.see-all-link {
+   clear: both;
+   text-align: center;
+   padding: 50px 0 70px;
 }
