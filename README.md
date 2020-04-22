@@ -15,7 +15,7 @@ The Design-Teardown project is specifically for User Experience and User Interfa
 ## Live Demo
 
 ​
-[Live Demo Link](https://rawcdn.githack.com/mugberto/old-apple-web-homepage-clone/ec75664558f748f6994f922897ad8c380bfe4b8f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Rumbie-Mudzie7/Project-Design-Teardown/e625272ee4557f8b1f13b2d28e64c016fc3d374f/index.html)
 ​
 
 ## Getting Started
