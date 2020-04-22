@@ -206,22 +206,13 @@
    font-size: .8rem; 
 }
 
-.arrow{
-   position: absolute;
-   bottom: 0px;
-   left: 0px;
-   height: 120px;
-   width: 120px;
-   text-align: center;
-   padding: 50px;
-}
-
 .arrow-white {
    color: white;
 }
 
-.latest-posts {
-   position: relative;
+.latest-posts { 
+   display: block;
+   width: 100%;
    background-color: #F6F3F2;
    filter: grayscale(100%);
    
@@ -242,4 +233,14 @@
 
 .arrow-red {
    color: red;
+}
+
+.arrow{
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+   height: 120px;
+   width: 120px;
+   text-align: center;
+   padding: 50px;
 }
