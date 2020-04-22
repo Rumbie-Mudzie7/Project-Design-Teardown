@@ -382,3 +382,165 @@
    text-align: center;
    font-size: 20px;
 }
+
+.red-billboard {
+   position: relative;
+   background-color: #D33A2C;
+   width: 100%;
+   padding: 60px;
+   text-align: left;
+   margin-top: 100px;
+}
+.red-billboard img{
+   display: block;
+   width: 200px;
+   margin: 0 auto 50px;
+}
+
+.red-billboard h1{
+   color: #fff;
+   font-size: 2rem;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.2;
+   margin-bottom: 20px;
+}
+
+.red-billboard p{
+   width: 70%;
+   font-size: 1.2rem;
+   line-height: 1.4;
+   margin-bottom: 1rem;
+   text-align: left;
+}
+
+.red-billboard button{
+   font-size: 1rem;
+   font-weight: bold;
+   padding: 10px 20px;
+   border-radius: 10px;
+   border: none;
+   margin-bottom: 20px;
+
+}
+
+.right-img{
+   position: absolute;
+   top: -56px;
+   right: 137px;
+   transform: rotate(344deg);
+}
+
+.curated-posts { 
+   display: block;
+   width: 100%;
+   background-color: #F6F3F2;
+   filter: grayscale(100%);
+ 
+}
+
+.curated-posts header {
+   font-size: 1rem;
+   line-height: 2.4;
+}
+
+.curated-posts h1 {
+   font-size: 2rem;
+   font-weight: bold;
+   margin-bottom: 1rem;
+}
+
+.author-details {
+   font-weight: bold;
+   color: grey;
+   text-align: left;
+   margin-bottom: 2rem;
+}
+
+.posts-text {
+   color: darkgrey;
+   line-height: 2rem;
+   font-size: 20px;
+   text-align: left;
+   margin-bottom: 180px;
+}
+
+.curated-posts article:hover {
+   background-color: white;
+   box-shadow: 2px 2px 100px;
+}
+
+.curated-posts article {
+   float: left;
+   position: relative;
+   height: 762px;
+   width: 33.3333%;
+   padding: 80px;
+}
+
+.curated-posts ul{
+   list-style-type: disc;
+   list-style-position: inside;
+   margin-left: 20px;
+   line-height: 2.2;
+   font-size: 1.5rem;
+   color: blue;
+}
+
+.wide-red-banner{
+   width: 60%;
+}
+
+.site-footer{
+   background-color: #D33A2C;
+   padding: 60px;
+   color: white;
+   text-align: center;
+}
+
+.footer-heading{
+   margin-bottom: 50px;
+}
+
+.footer-nav{
+   margin-bottom: 70px;
+}
+
+.footer-nav a{
+   text-decoration: none;
+   font-size: 1.5rem;
+   color: white;
+}
+
+.footer-nav li{
+   display: inline;
+}
+
+.footer-nav li::before {
+   content: ".";
+   font-size: 3rem;
+   line-height: .3;
+   color: black;
+   margin: 0 5px;
+}
+
+.footer-text{
+   font-size: 1.1rem;
+   line-height: 1.4;
+   width: 450px;
+   margin: 0 auto 40px;
+}
+
+.footer-text::first-line{
+   font-style: italic;
+}
+
+.footer-links{
+   font-size: 1.1rem;
+   line-height: 2.1;
+   width: 295px;
+   margin: 0 auto 40px;
+}
+.footer-links a{
+   color: white;
+   margin: 0 10px;
+}
