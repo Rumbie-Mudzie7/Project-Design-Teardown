@@ -215,7 +215,33 @@
    width: 100%;
    background-color: #F6F3F2;
    filter: grayscale(100%);
-   
+ 
+}
+
+.latest-posts time {
+   font-size: 1rem;
+   line-height: 2.4;
+}
+
+.latest-posts h1 {
+   font-size: 2rem;
+   font-weight: bold;
+   margin-bottom: 1rem;
+}
+
+.author-details {
+   font-weight: bold;
+   color: grey;
+   text-align: left;
+   margin-bottom: 2rem;
+}
+
+.posts-text {
+   color: darkgrey;
+   line-height: 2rem;
+   font-size: 20px;
+   text-align: left;
+   margin-bottom: 180px;
 }
 
 .latest-posts article:hover {
@@ -226,9 +252,9 @@
 .latest-posts article {
    float: left;
    position: relative;
-   height: 400px;
+   min-height: 400px;
    width: 33.3333%;
-   padding: 20px;
+   padding: 80px;
 }
 
 .arrow-red {
