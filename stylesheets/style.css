@@ -1,5 +1,6 @@
 *, *::before, *::after {
    box-sizing: border-box;
+   filter: grayscale(100%)
 }
 
 .site-header {
@@ -253,7 +254,7 @@
 .latest-posts article {
    float: left;
    position: relative;
-   min-height: 400px;
+   height: 762px;
    width: 33.3333%;
    padding: 80px;
 }
@@ -317,4 +318,67 @@
    clear: both;
    text-align: center;
    padding: 50px 0 70px;
+}
+
+.see-latest-section {
+   background-color: #76D0A4;
+   filter: grayscale(100%);
+   width: 100%;
+   height: 600px;
+   text-align: center;
+   color: white;
+   font-size: 60px;
+   padding: 160px;
+}
+
+.community-links {
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto auto auto auto;
+}
+
+.first-item {
+   grid-column: 1 / span 2;
+}
+
+.grid-items {
+   display: flex;
+   flex-flow: row nowrap;
+   padding: 70px;
+}
+
+.grid-pic1 img {
+   margin-right: 60px;
+   width: 240px;
+   object-fit: cover;
+   border-radius: 8px;
+   border: 6px solid red;
+   transform: rotate(344deg)
+}
+
+.grid-pic img {
+   width: 70px;
+   object-fit: cover;
+   border-radius: 8px;
+   border: 6px solid red;
+   transform: rotate(344deg);
+   margin-right: 60px;
+}
+
+.grid-items p {
+   color: rgb(82, 76, 76);
+   text-align: left;
+   font-size: 1.5rem;
+   line-height: 2;
+}
+
+.grid-items h1 {
+   margin-bottom: 40px;
+   font-size: 30px;
+   color: grey;
+}
+
+.more-links {
+   text-align: center;
+   font-size: 20px;
 }
