@@ -389,7 +389,7 @@ p {
   line-height: 2;
 }
 
-.grid-items h1 {
+.grid-items h2 {
   margin-bottom: 40px;
   font-size: 30px;
   color: grey;
@@ -453,7 +453,7 @@ p {
   line-height: 2.4;
 }
 
-.curated-posts h1 {
+.curated-posts h2 {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
